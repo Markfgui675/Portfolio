@@ -307,3 +307,19 @@ main{
         left: 30%;
     }
 }
+@media(max-width: 280px){
+    .me{
+        height: 180px;
+        width: 180px;
+        left: 20%;
+    }
+    .namePro .name h1{
+        font-size: 2em;
+    }
+    .namePro .Pro h2{
+        font-size: 1.4em;
+    }
+    .arrow{
+        margin-top: 30px;
+    }
+}
