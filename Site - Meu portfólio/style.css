@@ -312,6 +312,31 @@ main{
         left: 30%;
     }
 }
+@media(max-width: 375px){
+    .me{
+        height: 200px;
+        width: 200px;
+        top: 10%;
+        left: 23%;
+    }
+}
+@media(max-width: 320px){
+    .me{
+        height: 170px;
+        width: 170px;
+        top: 10%;
+        left: 23%;
+    }
+    .information{
+        margin-top: 75px;
+    }
+    .namePro .name h1{
+        font-size: 1.7em;
+    }
+    .namePro .Pro h2{
+        font-size: 1.2em;
+    }
+}
 @media(max-width: 280px){
     .me{
         height: 180px;
@@ -328,3 +353,4 @@ main{
         margin-top: 30px;
     }
 }
+
